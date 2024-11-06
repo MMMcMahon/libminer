@@ -30,7 +30,18 @@ use the `lib_summary()` function:
 ``` r
 library(libminer)
 lib_summary()
-#>                                             Library n_packages
-#> 1                C:/Program Files/R/R-4.4.1/library         29
-#> 2 C:/Users/mcmahonm/AppData/Local/R/win-library/4.4        153
+#>                                                                      Library
+#> 1                                         C:/Program Files/R/R-4.4.1/library
+#> 2                          C:/Users/mcmahonm/AppData/Local/R/win-library/4.4
+#> 3 C:/Users/mcmahonm/AppData/Local/Temp/1/RtmpEPi4pF/temp_libpath65bc34db4ccf
+#>   n_packages
+#> 1         29
+#> 2        153
+#> 3          1
+```
+
+you can also run lib() to list all of your packages:
+
+``` r
+lib()
 ```
